@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script
+    src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous"  ></script> 
+ 
+
+    <style>
+
+#payment
+{
+    width: 70%;
+    height:500px;
+    border: 1px solid black;
+    display: flex ;
+    gap: 20px;
+    padding: 10px;
+    margin-top: 100px;
+    margin: auto;
+}
+#payinfo
+{ width: 90%;
+    height:550px;
+    /* border: 1px solid yellow; */
+    display: flex;
+    gap: 25px;
+    margin: auto;
+    margin-top: 80px;
+    
+}
+
+#card
+{ width: 30%;
+    height:250px;
+    /* border: 1px solid blue; */
+    padding: 20px;
+    line-height: 25px;
+    /* margin-top: 60px; */
+}
+#details
+{ width: 50%;
+    height:380px;
+    /* border: 1px solid teal; */
+    /* margin-top: 60px; */
+}
+
+#cardimage
+{
+    width: 60%;
+    height:10px;
+    /* border: 1px solid orange; */
+    display: flex;
+    padding: 20px;
+    gap:10px;
+    
+}
+#cardimage>div{
+    width:40px;
+    height: 30px;
+    /* border:1px solid black; */
+    display: flex;
+    gap: 15px;
+}
+img{
+    width:40px;
+    height: 15px;
+}
+#innerdata >div
+{
+    width: 100%;
+    height: 30px;
+    /* border: 1px solid black; */
+    margin: 25px;
+}
+#paybtn
+{
+    width:50%;
+    height:30px;
+    margin-left: 118px;
+    background-color:light gainsboro;color:rgb(26, 23, 23);
+}
+#paybtn:hover
+{
+    background-color: blueviolet;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+#cardnumber
+{
+    padding:10px;
+    width:80%;
+}
+#cvv
+{
+    padding:10px;
+}
+#cardname
+{
+    padding:10px;
+    width: 80%; 
+}
+
+    </style>
+</head>
+<body>
+
+     <h3 style="margin-left:200px;margin-top:100px"> Choose Your Payment Method</h3>
+    <div id="payment">
+
+     <div id="payinfo">
+           
+            <div id="card">
+                        <span><i class="fa-solid fa-credit-card"></i>Debit / Credit Card  </span> 
+                        <hr> 
+
+                        <span ><i class="fa-solid fa-wallet"></i>  Wallet</span>
+                        <hr> 
+
+                        <span>  <i class="fa-brands fa-cc-amazon-pay"></i> UPI </span>
+                        <hr> 
+
+                        <span> <i class="fa-solid fa-building-columns"></i> Net Banking</span> 
+                        <hr> 
+
+                        <span> <i class="fa-solid fa-indian-rupee-sign"></i> Cash On Delivery</span>
+                        <hr> 
+               
+            </div>
+
+
+            
+      <div id="details">
+
+    <div id="cardimage"> 
+        <div><img src="https://images.bewakoof.com/web/ic-visa-gray-payment-v1.jpg" /> </div>
+        <div> <img src="https://images.bewakoof.com/web/ic-master-card-payment-v1.jpg"/> </div>
+        <div> <img src="https://images.bewakoof.com/web/ic-rupay-payment-v1.jpg" /></div>
+        <div> <img src="https://images.bewakoof.com/web/ic-american-express-payment-v1.jpg"/> </div> 
+    </div>
+
+<!-- form data start -->
+    <form>
+        <div id="innerdata"> 
+
+            <div>   <input   id="cardnumber" type="text" placeholder="Card Number"/></div>
+
+            <div>  <input style="padding:10px"  type="year" placeholder="Valid Through (YY)" />
+
+            <input  id="cvv"  type="number" placeholder="CVV"/>  </div>
+            
+            <div> <input id="cardname"  type="text" placeholder="Name On Card" /> </div>
+
+            <input  type="checkbox"  style="margin-left: 30px;font-weight:bolder;color: rgb(82, 79, 79)"> Save Card details for later</p>
+
+         <p  style="margin-left: 30px;color: grey;"> This transaction you make is totally secure. We don't save your CVV number.</p>
+
+            <button id="paybtn"> Pay</button>
+        </div>
+
+</form>
+
+    
+</body>
+</html>
+<script>
+
+</script>
