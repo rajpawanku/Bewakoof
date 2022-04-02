@@ -103,6 +103,7 @@
     .phone{
         font-size: 18px;
         color: gray;
+        cursor: pointer;
     }
     
     .phoneTwo{
