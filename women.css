@@ -26,15 +26,15 @@
 }
 #side2
 {
-width: 900px;
+     width: 900px;
     height: 800px;
     /* border: 1px solid blue; */
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: auto;
     grid-gap: 1px;
-  margin-top: 20px;
-  margin-left: 30%;
+   margin-top: 20px;
+    margin-left: 30%;
    cursor: pointer;
     margin-top: 13px; 
     /* position: fixed; */
