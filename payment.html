@@ -334,7 +334,7 @@ img{
 
          <p  style="margin-left: 30px;color: grey;"> This transaction you make is totally secure. We don't save your CVV number.</p>
 
-            <button id="paybtn"> Pay </button>
+     <input id="paybtn" type="submit" value="Pay">
         </div>
 
  </form>
@@ -343,5 +343,11 @@ img{
 </body>
 </html>
 <script>
-    window.location.href="ordersucessfull.html"
+  document.querySelector("form").addEventListener("submit",paymentfun);
+  function paymentfun(){
+      event.preventDefault()
+      window.location.href="ordersucessfull.html"
+  }
+    
+    // window.location.href="ordersucessfull.html"
 </script>
