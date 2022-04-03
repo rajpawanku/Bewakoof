@@ -309,5 +309,5 @@ var redmiCover =[
     {
     data.push(el)
     localStorage.setItem("clickData",JSON.stringify(data))
-    window.location.href="clickData.html"
+    window.location.href="click.html"
     }
