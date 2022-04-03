@@ -6,6 +6,8 @@
     #nav1{
         display: flex;
         width: 100%;
+        position: sticky;
+        top: 0%;
         background-color: #eeeeee;
     }
     .navechild1{
@@ -27,13 +29,17 @@
     } 
      /*Second Nave Baar  */
      #nav2{
-         display: flex;
-         width: 100%;
-         border: 1px solid black;
-         border-top: none;
-         border-left: none;
-         border-right: none;
-     }
+        display: flex;
+        width: 100%;
+        height: 50px;
+        border: 1px solid #cccccc;
+        background-color: white;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        position: sticky;
+        top: 25px;
+    }
      .nav2child1{
          height: 50px;
          width: 10%;
