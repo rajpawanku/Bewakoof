@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address Page</title>
+    <style>
+        #addmain{
+            height: 850px;
+            width: 40%;
+            margin-left: 30%;
+            margin-top: 3%;
+            border: 8px solid #42a2a2;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        h1{
+           
+            margin-left: 10%;
+            font-family: montserrat-bold, sans-serif;
+            font-size: 20px;
+            color: #333333;
+        }
+        #firstoptin{
+            height: 50px;
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 5%;
+            /* border: 1px solid red; */
+        }
+        .fullname{
+            padding:12px 183px  ;
+            font-size: 19px;
+            /* border-color: #d9d9d9;  */
+            text-align: left;
+           
+          
+        }
+        #twoinputinoneline{
+            display: flex;
+            height: 50px;
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 5%;
+            gap: 10px;
+        }
+        .twoinput{
+            padding: 12px 28px;
+            /* color: #d9d9d9; */
+            font-size: 19px;
+        }
+        p{
+            margin-left: 10%;
+            font-family: montserrat-bold, sans-serif;
+            /* font-size: 20px; */
+            color: #333333;
+        }
+        #forthreebutton{
+            display: grid;
+            grid-template-columns: repeat(3,80px);
+            height: 25px;
+            width: 80%; 
+            margin-left: 10%;
+            gap: 10px;
+       
+        }
+        #forthreebutton>div{
+             border: 1px solid #d9d9d9; 
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+            cursor: pointer;
+            
+        }
+        #lasttwobtn{
+           
+            margin-left: 20%;
+            margin-top: 3%;
+         
+        }
+        .savebtn{
+            padding: 15px 60px;
+            background-color: #42a2a2;
+            border: #42a2a2;
+            color: white;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            cursor: pointer;
+           
+          }
+          .savebtn2{
+            padding: 15px 82px;
+            border-color: #42a2a2;
+            color: #42a2a2;
+             background-color: white; 
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+             cursor: pointer; 
+          }
+        
+    </style>
+</head>
+<body>
+    <form >
+    <div id="addmain">
+        <h1 >Add New Address</h1>
+        <div id="firstoptin">
+            <input class="fullname"type="text" placeholder="Full Name"value="">
+        </div>
+
+        <div id="firstoptin">
+            <input class="fullname"type="text" id="mobile" placeholder="Mobile Number"value="">
+        </div>
+
+             <br>
+            <hr width="80%">
+
+            <div id="firstoptin">
+                <input class="fullname" id="pin" type="text"  placeholder="Pin Code"value="">
+         </div>
+      
+         <div id="twoinputinoneline">
+            <input class="twoinput"type="text" placeholder="City"value="">
+            <input class="twoinput"type="text" placeholder="State"value="">
+        </div>
+
+        <div id="firstoptin">
+                <input class="fullname"type="text" placeholder="Flat no/Building,Street name"value="">
+        </div>
+
+        <div id="firstoptin">
+            <input class="fullname"type="text" placeholder="Area/Locality"value="">
+        </div>
+
+        <div id="firstoptin">
+            <input class="fullname"type="text" placeholder="Landmark(Optional)"value="">
+        </div>
+       <p>Save Address As</p> 
+
+       <div id="forthreebutton">
+          <div>HOME</div>
+         <div>OFFICE</div>
+         <div>OTHER</div>
+       </div>
+       
+       <div id="lasttwobtn">
+        <button class="savebtn">SAVE ADDRESS</button>
+        <button class="savebtn2">CANCLE</button>
+    </div>
+
+    </div>
+</form>
+</body>
+</html>
+
+      <script>
+          document.querySelector("form").addEventListener("submit",address)
+
+          var addressdata= JSON.parse(localStorage.getItem("add"))||[]
+
+          function address(){
+              event.preventDefault()
+            // var cont =  document.querySelector(".savebtn").value
+        
+                window.location.href="payment.html"
+             
+            //   var addressobj ={
+            //       mobile : document.querySelector("#mobile").value,
+            //       pincode : document.querySelector("#pin").value
+            //   };
+            //   addressdata.push(addressobj);
+            // //   console.log(addressobj)
+            //   localStorage.setItem("add",JSON.stringify(addressdata))
+           }
+          
+        //   var 
+        //  for(var key in addressdata)
+        //  {
+        //      char=addressdata
+        //       if(char[key]==)
+           
+        //  }
+        //  console.log(Object.keys(char))
+
+      </script>            
+
