@@ -1,0 +1,125 @@
+#sigmaindiv{
+    display: flex;
+    height: 1000px;
+    width: 100%;
+    margin: auto;
+    gap: 9%;
+    background-color: #fff7d6;
+}
+#sig1stimg{
+margin-top: 8%;
+margin-left: 20%;
+height: 500px;
+width: 18%;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+/* border: 1px solid teal;  */
+}
+#sig1stimg>img{
+width: 100%;
+height: 100%;
+}
+
+#sig2ndinput{
+  margin-top: 7%;
+  height: 600px;
+  width:  29%;
+  background-color: #ffffff; 
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  /* border: 1px solid red; */
+}
+#sigh{
+height: 130px;
+width: 60%;
+/* border: 1px solid red; */
+margin-left: 15%; 
+}
+.signh1{
+color: #333333;
+}
+.signh2{
+font-family: montserrat-bold, sans-serif;
+color: #333333;
+font-size: 20px;
+font-weight: bold;
+}
+/* form wala div */
+#inputstart{
+margin-top: -6%;
+height: 350px;
+margin-left: 15%;
+width: 65%;
+/* border: 1px solid black; */
+}
+.inputstarted{
+margin-top: 10px;
+height: 70px;
+width: 100%;
+/* border: 1px solid teal; */
+}
+#name{
+padding: 20px 54px  ;
+font-size: 19px;
+border-color: #bcbcbc;
+border-top: none;
+border-right: none;
+border-left: none;
+}
+#mobile{
+padding: 20px 54px  ;
+font-size: 19px;
+border-color: #bcbcbc;
+border-top: none;
+border-right: none;
+border-left: none;
+}
+#email{
+padding: 20px 54px  ;
+font-size: 19px;
+border-color: #bcbcbc;
+border-top: none;
+border-right: none;
+border-left: none;
+}
+#password{
+padding: 20px 54px  ;
+font-size: 19px;
+border-color: #bcbcbc;
+border-top: none;
+border-right: none;
+border-left: none;
+}
+#ptage{
+height: 30px;
+width: 65%;
+margin-left: 15%;
+}
+#ptage>h{
+margin-left: 10%;
+font-family: montserrat, sans-serif;
+font-size: 14px;
+color: #333333;
+}
+#spansuare{
+font-size: 25px;
+}
+#lastbutton{
+     margin-left: 15%;
+    margin-top: 5%;
+    height: 10%;
+    width: 65%;
+  
+}
+#proceedbtn{
+    /* margin-top: 18px; */
+     padding: 18px 128px;
+     background-color: #42a2a2;
+     color: #ffff;
+     font-family: montserrat, sans-serif;
+     font-size: 20px;
+     border-radius: 7px;
+     border-color: #42a2a2;
+     border-top: #42a2a2;
+     border-bottom: #42a2a2;
+     border-right: #42a2a2;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; 
+}

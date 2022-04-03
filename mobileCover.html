@@ -4,111 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script
-    src="https://kit.fontawesome.com/24c494a6b6.js"
-    crossorigin="anonymous"  ></script> 
+    <title>Mobile Cover</title>
+    <link rel="stylesheet" href="mobileCover.css">
     <link rel="stylesheet" href="navewithoutthree.css">
- 
-
-    <style>
-
-#payment
-{
-    width: 50%;
-    height:500px;
-    border: 2px solid #d6d6d6;
-    display: flex ;
-    gap: 20px;
-    padding: 10px;
-    margin-top: 100px;
-    margin: auto;
-}
-#payinfo
-{ width: 90%;
-    height:550px;
-    /* border: 1px solid yellow; */
-    display: flex;
-    gap: 25px;
-    margin: auto;
-    margin-top: 80px;
-    
-}
-
-#card
-{ width: 30%;
-    height:250px;
-    /* border: 1px solid blue; */
-    padding: 20px;
-    line-height: 25px;
-    /* margin-top: 60px; */
-}
-#details
-{ width: 50%;
-    height:380px;
-    /* border: 1px solid teal; */
-    /* margin-top: 60px; */
-}
-
-#cardimage
-{
-    width: 60%;
-    height:10px;
-    /* border: 1px solid orange; */
-    display: flex;
-    padding: 20px;
-    gap:10px;
-    
-}
-#cardimage>div{
-    width:40px;
-    height: 30px;
-    /* border:1px solid black; */
-    display: flex;
-    gap: 15px;
-}
-img{
-    width:40px;
-    height: 15px;
-}
-#innerdata >div
-{
-    width: 100%;
-    height: 30px;
-    /* border: 1px solid black; */
-    margin: 25px;
-}
-#paybtn
-{
-    width:70%;
-    height:40px;
-    margin-left:55px;
-    background-color:light gainsboro;
-    color:rgb(26, 23, 23);
-}
-#paybtn:hover
-{
-    background-color: teal;
-    cursor: pointer;
-    border: none;
-    color: white;
-}
-#cardnumber
-{
-    padding:10px;
-    width:80%;
-}
-#cvv
-{
-    padding:10px;
-}
-#cardname
-{
-    padding:10px;
-    width: 80%; 
-}
-
-    </style>
+    <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
 </head>
 <body>
     <!-- Nave Baar -->
@@ -132,7 +34,7 @@ img{
       </div>
       <div class="nav2child2">
           <div class="dropdown">
-            <button class="dropbtn" style="background-color: white; border: none;">MEN</button>
+            <button class="dropbtn" style="background-color: white; border: none;"><a href="mensdata.html" class="chnge">MEN</a> </button>
             <table class="dropdown-content">
                 <tr>
                     <th>Topwear</th>
@@ -187,7 +89,7 @@ img{
           </div>
          
                     <div class="dropdown2">
-                            <button class="dropbtn2" style="background-color: white; border: none;">WOMEN</button>
+                            <button class="dropbtn2" style="background-color: white; border: none;"><a href="womenpage.html" class="chnge">WOMEN</a> </button>
                             <table class="dropdown-content2">
                                 <tr>
                                     <th>Topwear</th>
@@ -243,7 +145,7 @@ img{
                                 
     
               <div class="dropdown3">
-                     <button class="dropbtn3" style="background-color: white; border: none;">MOBILE COVERS</button>
+                     <button class="dropbtn3" style="background-color: white; border: none;"><a href="mobileCover.html"class="chnge">MOBILE COVERS</a> </button>
                      <table class="dropdown-content3">
                         <tr>
                             <th>Xiaomi</th>
@@ -283,71 +185,44 @@ img{
         <span class="heart1"><i class="fa-solid fa-bag-shopping"></i></span>
       </div>
      </div>
+    <p id="gray">HOME / MOBILE COVERS</p>
 
-     <h3 style="margin-left:25%;margin-top:100px;color: #333333;font-size: 19px;"> Choose Your Payment Method</h3>
-    <div id="payment">
+    <div id="grayDibba">
 
-     <div id="payinfo">
-           
-            <div id="card">
-                        <span><i class="fa-solid fa-credit-card"></i>Debit / Credit Card  </span> 
-                        <hr> 
+        <h2 id="heading">Mobile Covers And Cases</h2>
+    <div id="line"></div>
 
-                        <span ><i class="fa-solid fa-wallet"></i>  Wallet</span>
-                        <hr> 
+<img src="https://images.bewakoof.com/nav_menu/landing-page-mobile-box-1558174497.jpg" alt="" id="bajuimage">
 
-                        <span>  <i class="fa-brands fa-cc-amazon-pay"></i> UPI </span>
-                        <hr> 
+<div id="white">
+    <span id="glass">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </span>
+   
+    <input type="text" placeholder="Search by Brand/Device" id="searchBar">
+    <p id="underline"></p>
+    <p style="color: gray;margin-left: 27px; margin-top: 40px;">POPULAR</p>
+    <div id="inside">
+        <div>
+         <a href="redmi9.html"><p class="phone">Xiaomi <span class="red">New</span></p></a> 
+        <p class="phoneTwo">Samsung <span class="red">New</span></p></div>
 
-                        <span> <i class="fa-solid fa-building-columns"></i> Net Banking</span> 
-                        <hr> 
-
-                        <span> <i class="fa-solid fa-indian-rupee-sign"></i> Cash On Delivery</span>
-                        <hr> 
-               
-            </div>
-
-
-            
-      <div id="details">
-
-    <div id="cardimage"> 
-        <div><img src="https://images.bewakoof.com/web/ic-visa-gray-payment-v1.jpg" /> </div>
-        <div> <img src="https://images.bewakoof.com/web/ic-master-card-payment-v1.jpg"/> </div>
-        <div> <img src="https://images.bewakoof.com/web/ic-rupay-payment-v1.jpg" /></div>
-        <div> <img src="https://images.bewakoof.com/web/ic-american-express-payment-v1.jpg"/> </div> 
+        <div>
+           <a href="onePlus9.html"><p class="phone">OnePlus <span class="red">New</span></p></a> 
+        <p class="phoneTwo">Realme <span class="red">New</span></p></div>
+        <div>
+            <p class="phone">Apple <span class="red">New</span></p>
+            <p class="phoneTwo">Vivo <span class="red">New</span></p>
+        </div>
     </div>
 
-<!-- form data start -->
-    <form>
-        <div id="innerdata"> 
-
-            <div>   <input   id="cardnumber" type="text" placeholder="Card Number"/> </div>
-
-            <div>  <input style="padding:10px"  type="year" placeholder="Valid Through (YY)" />
-
-            <input  id="cvv"  type="number" placeholder="CVV"/>  </div>
-            
-            <div> <input id="cardname"  type="text" placeholder="Name On Card" /> </div>
-
-            <input  type="checkbox"  style="margin-left: 30px;font-weight:bolder;color: rgb(82, 79, 79)"> Save Card details for later</p>
-
-         <p  style="margin-left: 30px;color: grey;"> This transaction you make is totally secure. We don't save your CVV number.</p>
-
-     <input id="paybtn" type="submit" value="Pay">
-        </div>
-
- </form>
-
-    
+    <p style="color: gray;margin-left: 27px; margin-top: 20px;">OTHER BRANDS</p>
+    <div id="inside">
+        <div><p class="phone">Oppo <span class="red">New</span></p></div>
+        <div><p class="phone">Infinix <span class="red">New</span></p></div>
+        <div><p class="phone">Moto <span class="red">New</span></p></div>
+    </div>
+</div>
+    </div>
 </body>
 </html>
-<script>
-  document.querySelector("form").addEventListener("submit",paymentfun);
-  function paymentfun(){
-      event.preventDefault()
-      window.location.href="ordersucessfull.html"
-  }
-    
-    // window.location.href="ordersucessfull.html"
-</script>
